@@ -14,11 +14,13 @@ You can view these notebooks online through the [IPython nbviewer](http://nbview
 
  1. [Introduction](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/01-Introduction.ipynb)
 
- 2. [Matplotlib and Numpy](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/02-Matplotlib_Numpy.ipynb)
+ 2. [Matplotlib](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/02-Matplotlib.ipynb)
 
- 3. [Creating NetCDF](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Creating_NetCDF.ipynb)
+ 3. [Numpy](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Numpy.ipynb)
 
- 4. [Atmospheric Data Formats](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/04-Atmospheric_Data_Formats.ipynb)
+ 4. [Creating NetCDF](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Creating_NetCDF.ipynb)
+
+ 5. [Atmospheric Data Formats](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/04-Atmospheric_Data_Formats.ipynb)
 
 The source of modules are available at https://github.com/cedadev/ceda_training_mod5.
 
