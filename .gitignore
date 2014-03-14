@@ -1,0 +1,9 @@
+*~
+.ipynb_checkpoints
+build/*.idx
+build/*.log
+build/*.out
+build/*.tex
+build/*.aux
+build/*_files
+data/*.nc
