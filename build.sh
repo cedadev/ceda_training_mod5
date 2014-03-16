@@ -9,5 +9,8 @@ LATEX_TEMPLATE=article
 pushd $BUILD_DIR
 for nb in $HERE/*.ipynb
 do
-    ipython nbconvert --to=latex --template=$LATEX_TEMPLATE --post=pdf $nb
+    ipython nbconvert --to=latex --template=$LATEX_TEMPLATE --config=$HERE/nbconvert_config.py $nb
+    tex=$(basename ${nb%.*}).tex
+    python $HERE/adjust_latex.py $tex
+    pdflatex $tex
 done
