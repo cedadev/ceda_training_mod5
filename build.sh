@@ -12,5 +12,5 @@ do
     ipython nbconvert --to=latex --template=$LATEX_TEMPLATE --config=$HERE/nbconvert_config.py $nb
     tex=$(basename ${nb%.*}).tex
     python $HERE/adjust_latex.py $tex
-    pdflatex $tex
+    pdflatex -interaction nonstopmode $tex
 done
