@@ -17,6 +17,11 @@ for line in fh:
     line = re.sub(r'\\includegraphics\[max size=\{\\textwidth\}', 
                   r'\\includegraphics[max size={0.6\\textwidth}', line)
 
+    #line = re.sub(r'\\def\\smaller\{\\fontsize\{9.5pt\}\{9.5pt\}', 
+    #              r'\\def\\smaller{\\fontsize{8.5pt}{8.5pt}', line) 
+    line = re.sub(r'\\begin\{alltt\}', r'\\footnotesize\\begin{alltt}', line)
+    line = re.sub(r'\\end\{alltt\}', r'\\end{alltt}\\normalsize', line)
+
     # Detect included http references
     mo = re.search(r'\\includegraphics\{(http.*?)\}', line)
     if mo:
@@ -28,7 +33,7 @@ for line in fh:
             open(filename, 'w').write(data)
         
         line = re.sub(r'\\includegraphics\{http.*?\}', 
-                      r'\\includegraphics{%s}' % filename, line)
+                      r'\\includegraphics[max size={0.6\\textwidth}{\\textheight}]{%s}' % filename, line)
         
     new_lines.append(line)
 
