@@ -12,17 +12,17 @@ This module borrows heavily from many excellent sources of information on the we
 
 You can view these notebooks online through the [IPython nbviewer](http://nbviewer.ipython.org).
 
- 1. [Introduction](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/00-Introduction.ipynb)
+ - 00 [Starting JASMIN](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/00-Starting_JASMIN.ipynb)
 
- 2. [Matplotlib](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/01-Matplotlib.ipynb)
+ - 01 [Matplotlib](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/01-Matplotlib.ipynb)
 
- 3. [Numpy](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/02-Numpy.ipynb)
+ - 02 [Numpy](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/02-Numpy.ipynb)
 
- 4. [Creating NetCDF](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Creating_NetCDF.ipynb)
+ - 03 [Creating NetCDF](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Creating_NetCDF.ipynb)
 
- 5. [Atmospheric Data Formats](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/04-Atmospheric_Data_Formats.ipynb)
+ - 04 [Atmospheric Data Formats](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/04-Atmospheric_Data_Formats.ipynb)
 
- 6. [Exercises](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/05-Exercises.ipynb)
+ - 05 [Exercises](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/05-Exercises.ipynb)
 
 The latest version of this module is available at https://github.com/cedadev/ceda_training_mod5 .
 
