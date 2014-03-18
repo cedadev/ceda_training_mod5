@@ -24,9 +24,5 @@ You can view these notebooks online through the [IPython nbviewer](http://nbview
 
  6. [Exercises](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/05-Exercises.ipynb)
 
-The source of modules are available at https://github.com/cedadev/ceda_training_mod5.
+The latest version of this module is available at https://github.com/cedadev/ceda_training_mod5 .
 
-
-### TODO
-
- - Instructions on uploading the test data
