@@ -24,5 +24,7 @@ You can view these notebooks online through the [IPython nbviewer](http://nbview
 
  - 05 [Exercises](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/05-Exercises.ipynb)
 
+ - 06 [Solutions](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/06-Solutions.ipynb)
+
 The latest version of this module is available at https://github.com/cedadev/ceda_training_mod5 .
 
